@@ -1,0 +1,237 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(
+    90deg,
+    #006aff,
+    #ff0000
+  );
+}
+
+
+
+.project-app {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin: 128px 100px 0px 100px;
+  min-height: 600px;
+  background: #161a2b;
+  text-align: left;
+  border-radius: 10px;
+  padding-bottom: 32px;
+}
+
+.phone{
+  display: flex;
+  margin: 5px;
+}
+
+h1 {
+  margin: 32px 32px;
+  color: #fff;
+  font-size: 24px;
+  padding: 10px 0px;
+  
+  text-align: center;
+  
+}
+
+.complete {
+  text-decoration: line-through;
+  opacity: 0.4;
+}
+.basic-multi-select{
+  display:flex;
+  margin: 5px;
+}
+
+.post-form {
+  margin-bottom: 32px;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-input {
+  padding: 14px 32px 14px 16px;
+  border-radius: 4px 0 0 4px;
+  border: 2px solid #4d0ccf;
+  outline: none;
+  width: 595px;
+  background: transparent;
+  color: #fff;
+  margin: 16px 0px 16px 32px;
+  
+}
+
+.project-input::placeholder {
+  color: #e2e2e2;
+}
+
+.project-button {
+  padding: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  background: linear-gradient(
+    90deg,
+    #006aff 0%,
+    #ff0000
+    100%
+  );
+  color: #fff;
+  text-transform: capitalize;
+  align-self: center;
+  display: flex;
+}
+
+.project-input.edit {
+  border: 2px solid #149fff;
+}
+
+.project-button.edit {
+  background: linear-gradient(
+    90deg,
+    rgba(20, 159, 255, 1) 0%,
+    rgba(17, 122, 255, 1) 100%
+  );
+  padding: 16px 22px;
+}
+.input-group{
+  margin: 5px;
+  display: flex;
+}
+
+.project-container {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.project-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4px auto;
+  color: #fff;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 118, 20, 1) 0%,
+    rgba(255, 84, 17, 1) 100%
+  );
+
+  padding: 16px;
+  border-radius: 5px;
+  width: 90%;
+}
+
+.project-row:nth-child(4n + 1) {
+  background: linear-gradient(
+    90deg,
+    rgba(93, 12, 255, 1) 0%,
+    rgba(155, 0, 250, 1) 100%
+  );
+}
+
+.project-row:nth-child(4n + 2) {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 12, 241, 1) 0%,
+    rgba(250, 0, 135, 1) 100%
+  );
+}
+
+.project-row:nth-child(4n + 3) {
+  background: linear-gradient(
+    90deg,
+    rgba(20, 159, 255, 1) 0%,
+    rgba(17, 122, 255, 1) 100%
+  );
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.delete-icon {
+  margin-right: 5px;
+  color: #fff;
+}
+
+.edit-icon {
+  color: #fff;
+}
+
+.modal-container{
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(
+    90deg,
+    #006aff,
+    #ff0000
+  );
+  padding: 10%;
+  border-radius: 5%;
+  
+}
+
+.checkbox-label{
+  color: white;
+}
+
+.addButtonDiv{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 5px;
+  
+}
+
+.project-button:hover{
+  
+  opacity: 0.6;
+}
+
+table{
+  background: linear-gradient(
+    90deg,
+    #006aff,
+    #ff0000
+  );
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+  
+  padding-bottom: 5px;
+}
+th{
+  color: white;
+  
+}
+td{
+  color: white;
+  
+}
+
+.date{
+  background-color: white;
+  display:flex;
+}
+
+.table-div{
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  padding: 15px;
+}
